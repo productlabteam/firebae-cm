@@ -11,7 +11,7 @@ repository = "https://github.com/Vesafary/firebae-cm"
 [dependencies]
 serde =             { version = "1.0.136", features = ["derive"] }
 serde_json =        { version = "1.0.79" }
-reqwest =           { version = "0.11.9", features = ["json"], default-features=false }
+reqwest =           { version = "0.11.9", features = ["json", "rustls-tls"], default-features=false }
 chrono =            { version = "0.4.19" }
 log =               { version = "0.4.14" }
 thiserror =         { version = "1.0.30" }
